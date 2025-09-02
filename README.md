@@ -1,3 +1,5 @@
+
+![Pipeline Diagram](images/pipeline.png)
 ## Appendix S2. Online Reproducibility Package (Code • Models • Instructions)
 +**Scope:** This appendix accompanies the paper and provides everything needed to run, test, and extend the full pipeline using the single Python script shared with the submission (teacher partial fine‑tuning → distillation + semi‑hard triplet → few‑shot evaluation → dynamic quantization → speed demo). It mirrors the implementation used to generate the results in the paper.
 ## S2.1 What’s in the Scripts 
