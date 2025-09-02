@@ -1,5 +1,5 @@
 ## Appendix S2. Online Reproducibility Package (Code • Models • Instructions)
-Scope: This appendix accompanies the paper and provides everything needed to run, test, and extend the full pipeline using the single Python script shared with the submission (teacher partial fine‑tuning → distillation + semi‑hard triplet → few‑shot evaluation → dynamic quantization → speed demo). It mirrors the implementation used to generate the results in the paper.
++**Scope:** This appendix accompanies the paper and provides everything needed to run, test, and extend the full pipeline using the single Python script shared with the submission (teacher partial fine‑tuning → distillation + semi‑hard triplet → few‑shot evaluation → dynamic quantization → speed demo). It mirrors the implementation used to generate the results in the paper.
 ## S2.1 What’s in the Scripts 
 * (imports, seeding, Colab mount) → Reproducibility & environment
 * Dataset classes (WeedNet, SubsetWithLabels, SubsetWithTransform)
@@ -23,3 +23,8 @@ Scope: This appendix accompanies the paper and provides everything needed to run
     Replaces the ensemble with a single lightweight backbone (MobileNetV3) and trains with **MSE + semi‑hard triplet**.
 
 > ℹ️ The main file contains the end‑to‑end pipeline, three ablations, inference speed benchmarking, and the plots reproduced in the paper. The **“no partial fine‑tuning”** and **“single student”** ablations are provided as two separate `.ipynb` notebooks.
+
+> 📓 Notes on Notebooks
+All provided .ipynb notebooks contain headers and comments clearly explaining the purpose of each cell. You can run them step by step for transparency and learning. To reproduce results:
+Install the required libraries listed in the setup cell.
+Run the code cell by cell in order.
