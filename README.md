@@ -29,3 +29,6 @@
 All provided .ipynb notebooks contain headers and comments clearly explaining the purpose of each cell. You can run them step by step for transparency and learning. To reproduce results:
 Install the required libraries listed in the setup cell.
 Run the code cell by cell in order.
+>+** Availability of Supplementary Materials:** 
+All supplementary materials for this work, including Appendix S1 (Component Rationale) and Appendix S2 (Online Reproducibility Package: code, models, and instructions) are available from the authors upon reasonable request.
+
