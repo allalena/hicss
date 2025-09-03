@@ -1,4 +1,8 @@
 ![Pipeline Diagram](SMB320-Agricultural-drone.jpg)
+
+🚀 **Availability of Supplementary Materials:** 
+All supplementary materials for this work, including Appendix S1 (Component Rationale) and Appendix S2 (Online Reproducibility Package: code, models, and instructions) are available from the authors upon reasonable request.
+
 ## Appendix S2. Online Reproducibility Package (Code • Models • Instructions)
 **Scope:** This appendix accompanies the paper and provides everything needed to run, test, and extend the full pipeline using the single Python script shared with the submission (teacher partial fine‑tuning → distillation + semi‑hard triplet → few‑shot evaluation → dynamic quantization → speed demo). It mirrors the implementation used to generate the results in the paper.
 ## S2.1 What’s in the Scripts 
@@ -29,7 +33,4 @@
 All provided .ipynb notebooks contain headers and comments clearly explaining the purpose of each cell. You can run them step by step for transparency and learning. To reproduce results:
 Install the required libraries listed in the setup cell.
 Run the code cell by cell in order.
-
-** Availability of Supplementary Materials:** 
-All supplementary materials for this work, including Appendix S1 (Component Rationale) and Appendix S2 (Online Reproducibility Package: code, models, and instructions) are available from the authors upon reasonable request.
 
