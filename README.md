@@ -1,5 +1,4 @@
-![Pipeline Diagram](SMB320-Agricultural-drone.jpg)
-<div align="center"><img src="SMB320-Agricultural-drone.jpg" alt="Precision Agriculture" height="600" width="1100"></div>
+<div align="center"><img src="SMB320-Agricultural-drone.jpg" alt="Precision Agriculture" height="300" width="1100"></div>
 
 🚀 **Availability of Supplementary Materials:** 
 All supplementary materials for this work, including Appendix S1 (Component Rationale) and Appendix S2 (Online Reproducibility Package: code, models, and instructions) are available from the authors upon reasonable request.
